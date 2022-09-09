@@ -6,3 +6,4 @@ Write a script that runs a C file through the preprocessor and save the result i
 5-printf.c- uses printf to print
 6-size.c-printf
 100-intel -assembly code generatio
+101-quote.c
