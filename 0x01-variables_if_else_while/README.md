@@ -4,3 +4,4 @@
 3-print_alphabets.c
 4-print_alphabet.c- program that prints the alphabet in lowercase, followed by a new line
 (5-print_numbers.c
+6-print_numbers.c-prints all single digit numbers of base 10 starting from 0, followed by a new line
