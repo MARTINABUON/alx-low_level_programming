@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * main - Prints 9 to 10 [uses ASCII]
  *
