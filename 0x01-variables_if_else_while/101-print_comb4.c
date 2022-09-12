@@ -23,8 +23,8 @@ int main(void)
 			{
 				if (e != i && i != j && e < i && i < j)
 				{
-					putchar(i);
 					putchar(e);
+					putchar(i);
 					putchar(j);
 					if (i == 56 && e == 55 && j == 57)
 					{
