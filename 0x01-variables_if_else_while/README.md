@@ -9,3 +9,4 @@
 8-print-base_16.c -rints all the numbers of base 16 in lowercase, followed by a new line.
 9-print_comb.c
 100-print_comb3.c- prints all possible different combinations of two digits.
+101-printcomb.c-prints all possible different combinations of three digits.
