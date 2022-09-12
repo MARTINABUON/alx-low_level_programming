@@ -10,3 +10,4 @@
 9-print_comb.c
 100-print_comb3.c- prints all possible different combinations of two digits.
 101-printcomb.c-prints all possible different combinations of three digits.
+102printcomb-prints all possible combinations of two two-digit numbers
