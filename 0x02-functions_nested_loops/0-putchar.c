@@ -2,6 +2,7 @@
 
 /**
 *Main -prints _putchar followed by new line
+*
 *Return (0):success
 */
 int main(void)
@@ -18,5 +19,3 @@ int main(void)
 
 	return (0);
 }
-	
-
