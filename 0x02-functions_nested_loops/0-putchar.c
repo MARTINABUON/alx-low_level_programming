@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-*Main -prints _putchar followed by new line
+*main - prints _putchar followed by new line
 *
-*Return (0):success
+*Return: Always 0 (Success)
 */
 int main(void)
 {
