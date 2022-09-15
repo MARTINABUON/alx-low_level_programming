@@ -9,7 +9,7 @@
  */
 void times_table(void)
 {
-	int lum,rone, d;
+	int lum, rone, d;
 
 	for (rone = 0; rone <= 9; rone++)
 	{
@@ -24,8 +24,8 @@ void times_table(void)
 				_putchar((d / 10) + '0');
 			}
 			else
-			{	
-				_putchar(' ');	
+			{
+				_putchar(' ');
 			}
 			_putchar((d % 10) + '0');
 
