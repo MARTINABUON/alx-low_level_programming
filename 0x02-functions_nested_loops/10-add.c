@@ -4,10 +4,10 @@
  * add - a function that adds two numbers
  * @one - first number input
  * @two - second number input
- * Return: a + b
+ * Return: one + two
  *
  */
 int add(one + two)
 {
-	Return: (one + two);
+	return: (one + two);
 }	
