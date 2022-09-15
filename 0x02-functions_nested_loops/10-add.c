@@ -9,5 +9,5 @@
  */
 int add(a + b)
 {
-	Return:a + b;
+	Return: (a + b);
 }	
