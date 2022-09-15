@@ -7,7 +7,7 @@
  * Return: one + two
  *
  */
-int add(one + two)
+int add((one) + (two))
 {
 	return: (one + two);
 }	
