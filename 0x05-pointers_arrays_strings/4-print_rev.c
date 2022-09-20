@@ -17,6 +17,11 @@ void print_rev(char *s)
 
 	putchar('\n');
 }
+/**
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: returns lenght;
+ */
 int _strlen(char *s)
 {
 int count, inc;
