@@ -2,12 +2,14 @@
 /**
  * print_rev - prints a string in reverse
  * @s: - string
- * Return: void
+ *_strlen - prints string length
+ *Return: void
  */
 
 void print_rev(char *s)
 {
 	int len = 0, index;
+
 	len = _strlen(s);
 
 	for (index = len - 1; index >= 0; index--)
