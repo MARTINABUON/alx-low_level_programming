@@ -1,7 +1,5 @@
-#ifndef "main.h"
-#define "main.h"
-
-#include <stdio.h>
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 char *_strcat(char *dest, char *src);
 
