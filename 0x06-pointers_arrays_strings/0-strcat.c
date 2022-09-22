@@ -9,16 +9,20 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int len1, len2;
-	char s1[30] = "dest";
-	char s2[4] = "src";
+	int count = 0, count2 = 0;
 
-	len1 = strlen(s1);
-	len2 = strlen(S2)
-	for (i = 0; i <= len2; i++)
+	while (*(dest + count) != '\0')
 	{
-		s1[len1 + i] = s2[i];
+		cout++;
 	}
-	printf("%s\n", s1);
-retun (dest);
+
+	while (count2 >= 0)
+	{
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')
+			break;
+		count++;
+		count2++;
+	}
+	return (dest);
 }
