@@ -1,3 +1,6 @@
 0-strcat- concatenates two strings
 2-strncpy-copies a string
 3-strcmp.c- compares two strings
+4-rev_array.c- reverses array
+5-string_toupper.c -changes all lowercase letters of a string to uppercase
+1-strncat
