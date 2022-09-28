@@ -7,11 +7,10 @@
  */
 void _puts_recursion(char *s)
 {
-	char s
+	char s;
 
-	puts ("s");
 	{
-		printf('%s\n', s)
+		putchar('%s\n', char s)
 	}
 	return(void);
 }
