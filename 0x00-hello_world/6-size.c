@@ -6,9 +6,8 @@
 
 int main(void)
 {
-	printf("Size of a float: %i byte(s)\n", sizeof(float));
-	printf("Size of a character: %i byte(s)\n", sizeof(char));
-	printf("Size of an interger: %i byte(s)\n", sizeof(int));
-	printf("Size of a pointer: %i byte(s)\n", sizeof(pointer));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
+	printf("Size of a character: %d byte(s)\n", sizeof(char));
+	printf("Size of an interger: %d byte(s)\n", sizeof(int));
 	return (0);
 }
