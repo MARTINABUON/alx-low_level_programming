@@ -5,3 +5,4 @@
 4-puts.c - prints srtrings using puts function
 5-printf.c- prints using printtf function
 6-size.c
+100-intel
