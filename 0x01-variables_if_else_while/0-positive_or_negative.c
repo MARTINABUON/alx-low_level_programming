@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
  *main - entry function
- *@n: the integer
  *Return: 0(Alwys success)
  */
 
