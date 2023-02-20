@@ -3,3 +3,4 @@
 6-print_numberz.c - prints 0 to 10 using putchar function
 7-print_tebahpla.c- prints alphabets in reverse
 8-print_base16.c- prints hexadecimal
+9-print_comb.c
