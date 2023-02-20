@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - entry function
- *Description: prints alphabets except e and f
+ *Description: prints alphabets except e and q
  *Return: 0(Success)
  */
 
@@ -17,5 +17,6 @@ int main(void)
 		c++;
 	}
 	putchar('\n');
+
 	return (0);
 }
