@@ -11,7 +11,9 @@ int main(void)
 
 	for (m = 0; m < 11; ++m)
 	{
-		printf("%d\n", m);
+		printf("%d", m);
 	}
+	putchar('\n');
+
 	return (0);
 }
