@@ -10,7 +10,7 @@ int main(void)
 
 	while (t >= 'a')
 	{
-		putchar(m);
+		putchar(t);
 		t--;
 	}
 	putchar('\n');
