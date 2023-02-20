@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
+/**
+ *main - entry function
+ *@n: the integer
+ *Return: 0(Alwys success)
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
