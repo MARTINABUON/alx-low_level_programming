@@ -11,9 +11,10 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c != 'e' $$ c != 'f')
+		if (c != 'e' && c != 'f')
 			putchar(c);
-			c++;
+		
+		c++;
 	}
 	putchar('\n');
 	return (0);
