@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char c;
+	char c = 'a';
 
 	while (c <= 'z')
 	{
@@ -16,7 +16,7 @@ int main(void)
 
 		c++;
 	}
-	putchar('\n');
+putchar('\n');
 
 	return (0);
 }
