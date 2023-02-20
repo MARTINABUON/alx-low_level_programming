@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(y % 10 + '0');
 
-		if (y !=9)
+		if (y != 9)
 		{
 			putchar(',');
 			putchar(' ');
@@ -20,5 +20,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
