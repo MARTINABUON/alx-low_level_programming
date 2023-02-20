@@ -4,3 +4,4 @@
 7-print_tebahpla.c- prints alphabets in reverse
 8-print_base16.c- prints hexadecimal
 9-print_comb.c
+100-print_comb3.c
