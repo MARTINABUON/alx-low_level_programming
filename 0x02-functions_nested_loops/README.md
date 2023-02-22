@@ -3,3 +3,4 @@ Contains Nested loop tasks -while nested loops
 1-alphabet.c - prints lowercase alphabets
 2-print_alphabet_x10.c - prints alphabet x10
 3-islower.c - checks for lower and uppercase alphabets
+4-isalpha.c
