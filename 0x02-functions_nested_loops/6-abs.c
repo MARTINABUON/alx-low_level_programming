@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * int _abs - checks for absolute value
- * return: absolute value when absolute
+ * _abs - checks for absolute value and returns to main
+ * @h: integer 
+ * Return: absolute value
  */
 
 int _abs(int h)
@@ -12,6 +13,6 @@ int _abs(int h)
 	}
 	else
 	{
-		return (r * -1);
+		return (h * -1);
 	}
 }
