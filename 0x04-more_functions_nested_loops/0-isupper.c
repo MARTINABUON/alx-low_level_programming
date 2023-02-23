@@ -15,5 +15,5 @@ int _isupper(int c)
 		if (i == c)
 			up = 1;
 	}
-	return (upper);
+	return (up);
 }
