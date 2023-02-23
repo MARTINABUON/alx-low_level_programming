@@ -7,13 +7,9 @@
 
 int _isupper(int c)
 {
-	char i;
-	int up;
+	if (c >= 'A' && c <= 'Z')
+		return (1);
 
-	for (i = 'A'; i <= 'Z'; i++)
-	{
-		if (i == c)
-			up = 1;
-	}
-	return (up);
+	else
+		return (0);
 }
