@@ -11,3 +11,4 @@ Contains Nested loop tasks -while nested loops
 11-print_to_98.c
 102-fibonacci.c
 103-fibonacci.c
+101-natural.c
