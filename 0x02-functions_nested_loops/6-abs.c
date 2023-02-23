@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * _abs - checks for absolute value and returns to main
- * @h: integer 
+ * @h: integer
  * Return: absolute value
  */
 
