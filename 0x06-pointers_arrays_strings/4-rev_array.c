@@ -2,23 +2,24 @@
 /**
  * reverse_array - reverses rray element
  * Description: The function reverses a string of integers
+ * @a: array
  * @n: number of array elements
- * @j: the starting array element
+ * @i: the starting array element
  * Return: Nothing
  */
 
-void reverse_array(int *a, int n)
+void reverse_array(int array[], int n)
 {
-	int j;
+	int i;
 	int tmp;
 
-	while (j < n)
+	while (i < n)
 	{
-		int tmp = array[j];
-		array[j] = array[n];
-		array[n] = tmp;
-		j++;
-		n++;
+		int tmp = array[i];
+		array[i] = array[n - 1];
+		array[n - 1] = tmp;
+		i++;
+		n--;
 	}
 	_putchar('\n');
 }
