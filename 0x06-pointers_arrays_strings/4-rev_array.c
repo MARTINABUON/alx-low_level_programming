@@ -8,16 +8,18 @@
  * Return: Nothing
  */
 
-void reverse_array(int array[], int n)
+void reverse_array(int *a, int n)
 {
 	int i;
 	int tmp;
 
+	i = 0;
+
 	while (i < n)
 	{
-		int tmp = array[i];
-		array[i] = array[n - 1];
-		array[n - 1] = tmp;
+		int tmp = a[i];
+		a[i] = a[n - 1];
+		a[n - 1] = tmp;
 		i++;
 		n--;
 	}
