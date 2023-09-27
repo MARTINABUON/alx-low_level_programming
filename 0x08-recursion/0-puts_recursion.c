@@ -11,7 +11,7 @@ int main()
 {
 	char *s
 	{
-		_putchar(*s);
+		_putchar("%c",*(s+1);
 		_putchar("\n");
 	}
 }
