@@ -6,7 +6,7 @@
  * @argv: string of the arguments
  * Return: 0  always when successful
  **/
-int main(int argc, char *argv[])
+int main(int argc, char **argv[])
 {
 	int cents, mincents = 0;
 
@@ -34,4 +34,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", mincents);
 	return (0);
 }
-
