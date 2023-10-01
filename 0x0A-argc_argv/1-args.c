@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - main function, argc and argv is passed through the main
  * @argc: count the number of arguments
