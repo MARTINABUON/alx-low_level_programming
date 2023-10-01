@@ -1,27 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - mainn function where argments are passed
- * @y: integer input
- * @x: integer input
- * @mult: y*x
+ * @argc: integer input
+ * @argv: integer input
  * Return: 0 when arguemnts are passes, and error when not passed
  **/
 
-int main(int y, int x)
+int main(int argc, char *argv[])
 {
-	int mult = y * x;
+	if (argc != 3)
 	{
-	printf("%d\n",mult);
+		printf("Error\n");
+		return (1);
 	}
-	return (0);
-}
-int main(int y, int x)
-{
-	(void) y;
-	(void) x;
+	else
 	{
-		printf("Error");
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		return (0);
 	}
-	return (1);
 }
