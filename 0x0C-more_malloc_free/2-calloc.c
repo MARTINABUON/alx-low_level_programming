@@ -28,7 +28,7 @@ char *_memset(char *s, char b, unsigned int n)
  * @size: the size of the array
  * @nmemb: the bytes for the array
  *
- * /
+ */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptA;
