@@ -7,10 +7,9 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *ptA;
+	void *ptA;
 
-	ptA[0] = b;
-	ptA = malloc(sizeof(int));
+	ptA = malloc(b)
 
 	if (ptA == NULL)
 	{
@@ -19,6 +18,5 @@ void *malloc_checked(unsigned int b)
 	else
 	{
 		return (ptA);
-		*(ptA++);
 	}
 }
