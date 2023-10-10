@@ -2,7 +2,6 @@
 #include "dog.h"
 /**
  * init_dog - a function that initializes the dog's owner, name, and age
- * struct dog - structure function
  * @d: a pointer to struct dog
  * @name: the name of the dog inittialised
  * @owner: Dog's owner
